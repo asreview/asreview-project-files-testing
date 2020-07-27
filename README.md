@@ -1,7 +1,7 @@
 # ASReview Projects for testing
 This repository has asreview project files created in different versions for testing compatibility in the latest version.
 
-## Move code to `.asreview/` folder
+## Move test projects to `.asreview/` folder
 MacOS code to download project files and move to `./asreview` folder.
 ```
 curl -LOk https://github.com/asreview/asreview-project-files-testing/archive/master.zip -o ~/Downloads/projects.zip
