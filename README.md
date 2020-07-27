@@ -9,9 +9,9 @@ unzip ~/Downloads/projects.zip -d ~/Downloads/asreview_projects/
 rm -f ~/Downloads/projects.zip
 
 mkdir -p ~/Downloads/.asreview
-for dir in ~/Downloads/asreview_projects/asreview-project-files-testing-master/*/     # list directories in the form "/tmp/dirname/"
+for dir in ~/Downloads/asreview_projects/asreview-project-files-testing-master/*/
 do
-    dir=${dir%*/}      # remove the trailing "/"
+    dir=${dir%*/}
     mv ${dir}/* ~/.asreview
 done
 
